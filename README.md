@@ -7,16 +7,16 @@ OpenCore EFI and guide for macOS Monterey on Sony Vaio SVE14113ELW
 ---
 
 ## 💻 Especificaciones del Equipo
-* **Motherboard:** SONY SVE14113ELW con chipset HM76[cite: 1]
-* **Procesador (CPU):** Intel Core i3-2370M @ 2.40GHz (Arquitectura Sandy Bridge)[cite: 1]
-* **Gráficos (iGPU):** Intel HD Graphics 3000 (Device ID: 8086-0116) con soporte para pantalla interna (1366x768) y salida HDMI a monitor externo[cite: 1]
-* **Almacenamiento:** Disco duro Seagate ST500LM021 (500 GB) en controlador SATA[cite: 1]
-* **Audio:** Realtek ALC269 (Controlador Intel High Definition Audio)[cite: 1]
-* **Red / Ethernet:** Realtek PCIe GBE Family Controller[cite: 1]
-* **Wi-Fi:** Qualcomm Atheros AR9485WB-EG (PCI) y adaptador USB AIC8800D80[cite: 1]
-* **Bluetooth:** Qualcomm Atheros AR3012[cite: 1]
-* **Controladores USB:** Intel 7 Series/C216 (Incluye puertos USB 3.0 e hilos USB 2.0)[cite: 1]
-* **Otros:** Lector de tarjetas Realtek PCIE CardReader[cite: 1]
+* **Motherboard:** SONY SVE14113ELW con chipset HM76
+* **Procesador (CPU):** Intel Core i3-2370M @ 2.40GHz (Arquitectura Sandy Bridge)
+* **Gráficos (iGPU):** Intel HD Graphics 3000 (Device ID: 8086-0116) con soporte para pantalla interna (1366x768) y salida HDMI a monitor externo
+* **Almacenamiento:** Disco duro Seagate ST500LM021 (500 GB) en controlador SATA
+* **Audio:** Realtek ALC269 (Controlador Intel High Definition Audio)
+* **Red / Ethernet:** Realtek PCIe GBE Family Controller
+* **Wi-Fi:** Qualcomm Atheros AR9485WB-EG (PCI) y adaptador USB AIC8800D80
+* **Bluetooth:** Qualcomm Atheros AR3012
+* **Controladores USB:** Intel 7 Series/C216 (Incluye puertos USB 3.0 e hilos USB 2.0)
+* **Otros:** Lector de tarjetas Realtek PCIE CardReader
 
 ---
 
