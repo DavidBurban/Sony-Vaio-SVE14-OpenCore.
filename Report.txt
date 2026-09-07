@@ -1,0 +1,353 @@
+{
+    "Motherboard": {
+        "Name": "SONY SVE14113ELW",
+        "Chipset": "HM76",
+        "Platform": "Laptop"
+    },
+    "BIOS": {
+        "Version": "R0220E5",
+        "Release Date": "2016-09-26",
+        "System Type": "x64-based",
+        "Firmware Type": "Legacy",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i3-2370M",
+        "Codename": "Sandy Bridge",
+        "Core Count": "02",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX"
+    },
+    "GPU": {
+        "Intel(R) HD Graphics 3000": {
+            "Manufacturer": "Intel",
+            "Codename": "Sandy Bridge",
+            "Device ID": "8086-0116",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "LG TV": {
+            "Connector Type": "HDMI",
+            "Resolution": "1920x1080",
+            "Connected GPU": "Intel(R) HD Graphics 3000"
+        },
+        "CMN1472": {
+            "Connector Type": "Internal",
+            "Resolution": "1366x768",
+            "Connected GPU": "Intel(R) HD Graphics 3000"
+        }
+    },
+    "Network": {
+        "AIC8800D80 USB WiFi": {
+            "Bus Type": "USB",
+            "Device ID": "368B-8D81"
+        },
+        "Realtek PCIe GBE Family Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8168",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x2)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP03.PXSX"
+        },
+        "Qualcomm Atheros AR9485WB-EG Wireless Network Adapter": {
+            "Bus Type": "PCI",
+            "Device ID": "168C-0032",
+            "Subsystem ID": "E044105B",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP01.PXSX"
+        }
+    },
+    "Sound": {
+        "Dispositivo de High Definition Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0269",
+            "Subsystem ID": "104D6900",
+            "Audio Endpoints": [
+                "Micr\u00f3fono",
+                "Altavoces"
+            ],
+            "Controller Device ID": "8086-1E20"
+        },
+        "Dispositivo de High Definition Audio_#1": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "8086-2806",
+            "Subsystem ID": "104D6900",
+            "Audio Endpoints": [
+                "LG TV"
+            ],
+            "Controller Device ID": "8086-1E20"
+        }
+    },
+    "USB Controllers": {
+        "Controladora de host mejorada USB de la familia Chipset Intel(R)Intel(R) Serie 7/C216 - 1E26": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E26",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)",
+            "ACPI Path": "\\_SB.PCI0.EHC1"
+        },
+        "Controlador de host eXtensible Intel(R) USB 3.0 - 1.0 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E31",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.XHC_"
+        },
+        "Controladora de host mejorada USB de la familia Chipset Intel(R) Serie 7/C216 - 1E2D": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E2D",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1a,0x0)",
+            "ACPI Path": "\\_SB.PCI0.EHC2"
+        }
+    },
+    "Input": {
+        "multimedia keyboard controller": {
+            "Bus Type": "USB",
+            "Device ID": "0E8F-0022"
+        },
+        "Optical Mouse": {
+            "Bus Type": "USB",
+            "Device ID": "1BCF-0005"
+        },
+        "[Mediatrack Edge Mini Keyboard]": {
+            "Bus Type": "USB",
+            "Device ID": "1EA7-0066"
+        },
+        "Teclado PS/2 est\u00e1ndar": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0303",
+            "Device Type": "PS/2"
+        }
+    },
+    "Storage Controllers": {
+        "7 Series Chipset Family 6-port SATA Controller [AHCI mode]": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E03",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x2)",
+            "ACPI Path": "\\_SB.PCI0.SAT0",
+            "Disk Drives": [
+                "ST500LM021-1KJ152"
+            ]
+        }
+    },
+    "Bluetooth": {
+        "Generic Bluetooth Adapter": {
+            "Bus Type": "USB",
+            "Device ID": "368B-8D81"
+        },
+        "Qualcomm Atheros AR3012 Bluetooth(R) Adapter": {
+            "Bus Type": "USB",
+            "Device ID": "0489-E036"
+        }
+    },
+    "SD Controller": {
+        "Realtek PCIE CardReader": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-5209",
+            "Subsystem ID": "90AB104D"
+        }
+    },
+    "System Devices": {
+        "Temporizador del sistema": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PCI0.LPCB.TIMR"
+        },
+        "Placa del sistema": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C01",
+            "ACPI Path": "\\_SB.MEM2"
+        },
+        "Recursos de la placa base": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PDRC"
+        },
+        "Recursos de la placa base_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LDRC"
+        },
+        "Dispositivo heredado": {
+            "Bus Type": "ACPI",
+            "Device": "INT0800",
+            "ACPI Path": "\\_SB.PCI0.LPCB.FWHD"
+        },
+        "HONOR CHOICE Headphones Hands-Free Audio and Call Control HID Enumerator": {
+            "Bus Type": "BTHENUM"
+        },
+        "Administrador de vol\u00famenes": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "Recursos de la placa base_#2": {
+            "Bus Type": "ACPI",
+            "Device": "INT3F0D",
+            "ACPI Path": "\\_SB.PCI0.LPCB.CWDT"
+        },
+        "Puente PCI a PCI": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E14",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x2)",
+            "ACPI Path": "\\_SB.PCI0.RP03"
+        },
+        "Controlador de pantalla b\u00e1sica de Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "Zona t\u00e9rmica ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.THRM"
+        },
+        "Temporizador de eventos de alta precisi\u00f3n": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PCI0.LPCB.HPET"
+        },
+        "Enumerador de bus compuesto": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Enumerador de unidades virtuales de Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "Controladora LPC": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E59",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PCI0.LPCB"
+        },
+        "Controladora de acceso directo a memoria": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0200",
+            "ACPI Path": "\\_SB.PCI0.LPCB.DMAC"
+        },
+        "\u8054\u60f3thinkplus-LP5 Hands-Free Audio and Call Control HID Enumerator": {
+            "Bus Type": "BTHENUM"
+        },
+        "Tapa ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0D",
+            "ACPI Path": "\\_SB.LID0"
+        },
+        "Sistema CMOS/reloj en tiempo real": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0B00",
+            "ACPI Path": "\\_SB.PCI0.LPCB.RTC_"
+        },
+        "Controladora de High Definition Audio": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E20",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x0)",
+            "ACPI Path": "\\_SB.PCI0.HDEF"
+        },
+        "Enumerador de bus ra\u00edz de UMBus": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Complejo ra\u00edz PCI Express": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PCI0"
+        },
+        "Intel(R) Management Engine Interface ": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E3A",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x16,0x0)"
+        },
+        "Bot\u00f3n de inicio/apagado ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "Sistema Microsoft compatible con ACPI": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Controlador de representaci\u00f3n b\u00e1sica de Microsoft": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "Puente PCI a PCI_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E10",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP01"
+        },
+        "Bot\u00f3n de caracter\u00edstica fija ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "Controladora de bus SM": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E22",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PCI0.SBUS"
+        },
+        "Controladora de memoria": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-0104",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "Controladora programable de interrupciones": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PCI0.LPCB.IPIC"
+        },
+        "Enumerador de adaptador de red virtual NDIS": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "Puente PCI a PCI_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E12",
+            "Subsystem ID": "90AB104D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x1)",
+            "ACPI Path": "\\_SB.PCI0.RP02"
+        },
+        "Controladora integrada compatible con Microsoft ACPI": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C09",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_"
+        },
+        "Procesador de datos num\u00e9ricos": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C04",
+            "ACPI Path": "\\_SB.PCI0.LPCB.MATH"
+        },
+        "Controlador BIOS de Microsoft System Management": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "Recursos de la placa base_#3": {
+            "Bus Type": "ACPI",
+            "Device": "INT340E",
+            "ACPI Path": "\\_SB.PTID"
+        },
+        "Enumerador de dispositivos de software Plug and Play": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Remote Desktop Device Redirector Bus": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        }
+    }
+}
